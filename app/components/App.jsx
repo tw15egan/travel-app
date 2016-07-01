@@ -56,7 +56,6 @@ export default class App extends React.Component {
   }
   
   changeVisited = (key) => {
-    
     const trip = this.state.bucketList[key];
     
     if (trip.visited === true) {

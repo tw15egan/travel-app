@@ -6,7 +6,7 @@
 }
 
 body {
-  padding: 5%;
+  padding: 2rem;
   background-color: #efefef;
   color: #333;
   font-family: 'Helvetica Neue';
@@ -21,10 +21,100 @@ body {
   }
   
   img {
+    height: 300px;
     width: 300px;
+    object-fit: cover;
   }
   
   fieldset {
     border: 0;
   }
 }
+
+.bucket-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+
+.trip {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 0 0 300px;
+  padding: 2rem;
+  margin: 1rem;
+  border: 5px solid #333;
+  
+  @media (max-width: 700px) {
+    flex: 1 1 auto;
+    align-items: center;
+    
+    &__image {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
+  &__city {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  &__country {
+    font-style: italic;
+    margin: .25rem 0 .5rem;
+  }
+  
+  &__image {
+    border: 5px solid #333;
+  }
+  
+  &__status {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+    border: 5px solid #333;
+    border-top: 0;
+    background-color: #C8E6C9;
+    order: 4;
+    
+    &--complete {
+      
+    }
+    
+    &--incomplete {
+      background-color: #fff;
+    }
+  }
+}
+
+.form {
+  background-color: #fff;
+  padding: 1.5rem 0 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  
+  fieldset {
+    margin-right: 1rem;
+  }
+  
+  &__label {
+    padding-right: .5rem;
+  }
+  
+  &__input {
+    padding: .25rem;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #333;
+    outline: 0;
+    
+    &:focus {
+      border: 2px solid #333;
+    }
+  }
+}
+

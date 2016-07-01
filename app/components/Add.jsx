@@ -7,21 +7,21 @@ export default class Add extends React.Component {
   
   render() {
     return (
-      <form onSubmit={this.createTrip} ref="tripForm" >
+      <form className="form" onSubmit={this.createTrip} ref="tripForm" >
         <fieldset>
-          <label for="city">City</label>
-          <input ref="city" id="city" type="text" placeholder="Enter a city" />
+          <label className="form__label" for="city">City</label>
+          <input className="form__input" ref="city" id="city" type="text" placeholder="Enter a city" />
         </fieldset>
         <fieldset>
-          <label for="country">Country</label>
-          <input ref="country" id="country" type="text" placeholder="Enter a country" />
+          <label className="form__label" for="country">Country</label>
+          <input className="form__input"ref="country" id="country" type="text" placeholder="Enter a country" />
         </fieldset>
         <fieldset>
-          <label for="image">Image</label>
-          <input ref="image" id="image" type="text" placeholder="Enter an image URL" />
+          <label className="form__label" for="image">Image</label>
+          <input className="form__input" ref="image" id="image" type="text" placeholder="Enter an image URL" />
         </fieldset>
         <fieldset>
-          <button type="submit">Add</button>
+          <button className="form__button" type="submit">Add</button>
         </fieldset>
       </form>
     )

@@ -8,13 +8,13 @@ export default class BucketList extends React.Component {
   
   renderCard = (key) => {
     return (
-        <Card key={key} index={key} details={this.props.details[key]} changeVisited={this.props.changeVisited} />
+        <Card key={key} index={key} details={this.props.details[key]} changeVisited={this.props.changeVisited} showTrip={this.showTrip} />
       )
-    }
+  }
     
   render() {
     return (
-      <ul>
+      <ul className="bucket-list">
         {Object.keys(this.props.details).map(this.renderCard)}
       </ul>
     )
