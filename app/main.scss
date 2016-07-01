@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box; 
+  transition: .3s;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 5%;
+  background-color: #efefef;
+  color: #333;
+  font-family: 'Helvetica Neue';
+  
+  a {
+    color: lighten(#333, 30%);
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  img {
+    width: 300px;
+  }
+  
+  fieldset {
+    border: 0;
+  }
+}
