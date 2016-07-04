@@ -21,7 +21,7 @@ export default class Add extends React.Component {
           <input className="form__input" ref="image" id="image" type="text" placeholder="Enter an image URL" />
         </fieldset>
         <fieldset>
-          <button className="form__button" type="submit">Add</button>
+          <button className="form__button" type="submit">+</button>
         </fieldset>
       </form>
     )
