@@ -34,7 +34,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/travel-app/";
 
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
@@ -99,7 +99,7 @@
 
 
 	// module
-	exports.push([module.id, "* {\n  box-sizing: border-box;\n  transition: .3s;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  padding: 0 2rem 2rem;\n  margin: 0 auto;\n  background-color: #FF8A65;\n  color: #333;\n  font-family: 'usual', 'Helvetica Neue';\n  font-weight: 400; }\n  body a {\n    color: gray;\n    text-decoration: none; }\n  body li {\n    list-style: none; }\n  body img {\n    width: 100%;\n    height: auto;\n    object-fit: cover; }\n  body fieldset {\n    border: 0; }\n  @media (max-width: 600px) {\n    body {\n      padding: 0; }\n      body .main {\n        padding: 2rem 0 0 0; } }\n  @media (max-width: 465px) {\n    body .bucket-list {\n      padding: 0;\n      border: 0;\n      background-color: transparent; }\n    body .trip {\n      margin: 1rem 0; } }\n\n.main {\n  padding: 2rem 1rem; }\n  .main h1 {\n    display: inline-flex;\n    font-weight: 400;\n    align-items: center;\n    width: auto;\n    background-color: #fff;\n    padding: 1rem 1.5rem;\n    border: 5px solid #333;\n    margin: 0 1rem;\n    -webkit-font-smoothing: antialiased; }\n    .main h1 img {\n      width: 3rem;\n      height: 3rem;\n      margin-right: .5rem; }\n\n.bucket-list {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  background-color: #fff;\n  margin: 0 1rem;\n  padding: 1rem;\n  border: 5px solid #333; }\n\n.trip {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  flex: 1 1 300px;\n  padding: 2rem;\n  margin: 1rem;\n  border: 4px solid #333;\n  background-color: #fff; }\n  .trip li {\n    width: 100%; }\n  @media (max-width: 700px) {\n    .trip {\n      flex: 1 1 auto;\n      align-items: center; }\n      .trip__image {\n        width: 100%; } }\n  .trip__city {\n    font-size: 1.5rem;\n    letter-spacing: .5px;\n    text-transform: uppercase;\n    font-weight: 800; }\n  .trip__country {\n    font-style: italic;\n    font-size: 1.25rem;\n    color: #888;\n    margin: .25rem 0 1rem; }\n  .trip__image {\n    border: 4px solid #333;\n    min-height: 300px; }\n  .trip__status {\n    width: 100%;\n    text-align: center;\n    cursor: pointer;\n    padding: 1rem;\n    border: 4px solid #333;\n    border-top: 0;\n    order: 4; }\n    .trip__status--complete {\n      background-color: #333;\n      color: #fff; }\n    .trip__status--incomplete {\n      background-color: #fff; }\n\n.form {\n  min-height: 3.5rem;\n  padding: 1.5rem 1rem 1.5rem 0;\n  margin: 2rem 1rem;\n  background-color: #fff;\n  align-items: center;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  font-size: 1.25rem;\n  font-weight: 600;\n  border: 5px solid #333; }\n  .form fieldset {\n    display: inline-flex;\n    margin-right: 1.5rem;\n    height: 100%;\n    margin-left: 1.5rem; }\n    .form fieldset:last-child {\n      margin-left: auto;\n      margin-right: .5rem; }\n    @media (max-width: 770px) {\n      .form fieldset {\n        margin-top: 1rem; } }\n  .form__label {\n    font-size: .875rem;\n    letter-spacing: 1px;\n    text-transform: uppercase;\n    font-weight: 800; }\n  .form__input {\n    max-width: 175px;\n    font-family: 'usual', 'helvetica neue', serif;\n    margin: .5rem 0 0;\n    font-weight: 300;\n    color: #888;\n    font-style: italic;\n    font-size: .875rem;\n    padding: .25rem .25rem .25rem 0;\n    border: 2px solid transparent;\n    border-bottom: 2px solid #efefef;\n    outline: 0; }\n    .form__input:focus {\n      color: #333;\n      font-style: normal;\n      border-bottom: 2px solid #333; }\n    @media (max-width: 760px) {\n      .form__input {\n        margin-bottom: 1rem; } }\n  .form__button {\n    outline: 0;\n    display: flex;\n    vertical-align: middle;\n    align-items: center;\n    margin-left: auto;\n    border: 4px solid #333;\n    padding: 0 .5rem .25rem;\n    color: #333;\n    background-color: #fff;\n    font-weight: 600;\n    font-size: 1.5rem;\n    cursor: pointer; }\n    .form__button:hover {\n      background-color: #333;\n      color: #fff; }\n", ""]);
+	exports.push([module.id, "* {\n  box-sizing: border-box;\n  transition: .3s;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  padding: 0 2rem 2rem;\n  margin: 0 auto;\n  background-color: #FF8A65;\n  color: #333;\n  font-family: 'usual', 'Helvetica Neue';\n  font-weight: 400; }\n  body a {\n    color: gray;\n    text-decoration: none; }\n  body li {\n    list-style: none; }\n  body img {\n    width: 100%;\n    height: auto;\n    object-fit: cover; }\n  body fieldset {\n    border: 0; }\n  @media (max-width: 600px) {\n    body {\n      padding: 0; }\n      body .main {\n        padding: 2rem 0 0 0; } }\n  @media (max-width: 465px) {\n    body .bucket-list {\n      padding: 0;\n      border: 0;\n      background-color: transparent; }\n    body .trip {\n      margin: 1rem 0; } }\n\n.main {\n  padding: 2rem 1rem; }\n  .main header {\n    display: flex;\n    align-items: flex-start;\n    justify-content: space-between;\n    flex-wrap: wrap;\n    margin: 2rem 1rem; }\n  .main h1 {\n    display: inline-flex;\n    font-weight: 400;\n    align-items: center;\n    width: auto;\n    background-color: #fff;\n    margin-right: 1rem;\n    padding: 1rem 1.5rem;\n    border: 5px solid #333;\n    -webkit-font-smoothing: antialiased; }\n    .main h1 img {\n      width: 3rem;\n      height: 3rem;\n      margin-right: .5rem; }\n\n.bucket-list {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  background-color: #fff;\n  margin: 0 1rem;\n  padding: 1rem;\n  border: 5px solid #333; }\n\n.trip {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  position: relative;\n  flex: 1 1 300px;\n  padding: 2rem;\n  margin: 1rem;\n  border: 4px solid #333;\n  background-color: #fff; }\n  .trip li {\n    width: 100%; }\n  @media (max-width: 700px) {\n    .trip {\n      flex: 1 1 auto;\n      align-items: center; }\n      .trip__image {\n        width: 100%; } }\n  .trip__delete {\n    outline: 0;\n    display: flex;\n    vertical-align: middle;\n    align-items: center;\n    font-weight: 400;\n    border: 3px solid #333;\n    padding: 0;\n    line-height: .65;\n    color: #333;\n    background-color: #fff;\n    font-size: 1.75rem;\n    cursor: pointer;\n    opacity: .25;\n    position: absolute;\n    top: .5rem;\n    right: .5rem;\n    padding: .25rem .25rem .25rem;\n    font-size: .875rem;\n    font-weight: 800; }\n    .trip__delete:hover {\n      background-color: #333;\n      color: #fff;\n      opacity: 1;\n      transform: scale(1.2); }\n  .trip__city {\n    font-size: 1.5rem;\n    letter-spacing: .5px;\n    text-transform: uppercase;\n    font-weight: 800; }\n  .trip__country {\n    font-style: italic;\n    font-size: 1.25rem;\n    color: #888;\n    margin: .25rem 0 1rem; }\n  .trip__image {\n    border: 4px solid #333;\n    min-height: 300px; }\n  .trip__status {\n    width: 100%;\n    text-align: center;\n    cursor: pointer;\n    padding: 1rem;\n    border: 4px solid #333;\n    border-top: 0;\n    order: 4; }\n    .trip__status--complete {\n      background-color: #333;\n      color: #fff; }\n    .trip__status--incomplete {\n      background-color: #fff; }\n\n.form {\n  min-height: 3.5rem;\n  padding: 1.5rem 1.5rem 1.5rem 0;\n  width: auto;\n  background-color: #fff;\n  align-items: center;\n  display: inline-flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  font-size: 1.25rem;\n  font-weight: 600;\n  border: 5px solid #333; }\n  @media (max-width: 1116px) {\n    .form {\n      margin: 2rem 0 0; } }\n  .form fieldset {\n    display: inline-flex;\n    margin-right: 1.5rem;\n    height: 100%;\n    margin-left: 1.5rem; }\n    .form fieldset:last-child {\n      margin-left: auto;\n      margin-right: 0; }\n    @media (max-width: 775px) {\n      .form fieldset {\n        margin-top: 1rem; } }\n  .form__label {\n    font-size: .875rem;\n    letter-spacing: 1px;\n    text-transform: uppercase;\n    font-weight: 800; }\n  .form__input {\n    max-width: 175px;\n    font-family: 'usual', 'helvetica neue', serif;\n    margin: .5rem 0 0;\n    font-weight: 300;\n    color: #888;\n    font-style: italic;\n    font-size: .875rem;\n    padding: .25rem .25rem .25rem 0;\n    border: 2px solid transparent;\n    border-bottom: 2px solid #efefef;\n    outline: 0; }\n    .form__input:focus {\n      color: #333;\n      font-style: normal;\n      border-bottom: 2px solid #333; }\n    @media (max-width: 760px) {\n      .form__input {\n        margin-bottom: 1rem; } }\n  .form__button {\n    outline: 0;\n    display: flex;\n    vertical-align: middle;\n    align-items: center;\n    font-weight: 400;\n    border: 3px solid #333;\n    padding: 0;\n    line-height: .65;\n    color: #333;\n    background-color: #fff;\n    font-size: 1.75rem;\n    cursor: pointer;\n    opacity: .25;\n    opacity: 1;\n    padding: 0 .25rem .25rem; }\n    .form__button:hover {\n      background-color: #333;\n      color: #fff;\n      opacity: 1;\n      transform: scale(1.2); }\n", ""]);
 
 	// exports
 
@@ -20752,6 +20752,16 @@
 
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(App).call(this, props));
 
+	    _this.deleteTrip = function (id, e) {
+	      e.stopPropagation();
+
+	      _this.setState({
+	        bucketList: _this.state.bucketList.filter(function (trip) {
+	          return trip.id !== id;
+	        })
+	      });
+	    };
+
 	    _this.addTrip = function (trip) {
 	      _this.setState({
 	        bucketList: [].concat(_toConsumableArray(_this.state.bucketList), [{
@@ -20807,13 +20817,17 @@
 	        'div',
 	        { className: 'main' },
 	        _react2.default.createElement(
-	          'h1',
+	          'header',
 	          null,
-	          _react2.default.createElement('img', { src: 'data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4OC40IDQ4OC40IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODguNCA0ODguNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiPgo8Zz4KCTxwYXRoIGQ9Ik00NjEuMiw4NS41YzAtNTguNC0xMTIuNy04NS41LTIxNy04NS41cy0yMTcsMjYuMS0yMTcsODQuNWMwLDAuMiwwLDMxOC43LDAsMzE4LjdjMCw1OC4yLDExMi4xLDg1LjIsMjE2LDg1LjIgICBjMTAwLjgsMCwyMDkuMy0yNS40LDIxNy41LTgwLjFjMC4zLTEuMywwLjUtMi42LDAuNS00Vjg1LjVDNDYxLjIsODUuNiw0NjEuMiw4NS41LDQ2MS4yLDg1LjV6IE00MTkuNiw0MDMuMkw0MTkuNiw0MDMuMiAgIGMwLDEzLjUtNjEuMyw0NC42LTE3NS40LDQ0LjZTNjguOCw0MTUuNyw2OC44LDQwMy4yVjEzNy41YzEwLjksNS43LDIzLjUsMTAuNiwzNy40LDE0Ljh2MTA0LjZjMCwxMS40LDkuMywyMC44LDIwLjgsMjAuOCAgIHMyMC44LTkuMywyMC44LTE5Ljd2LTk1LjljMTIuNCwyLjIsMjUuMywzLjksMzguNCw1LjJ2NTMuM2MwLDExLjQsOS4zLDIwLjgsMjAuOCwyMC44YzExLjQsMCwyMC44LTkuMywyMC44LTIwLjh2LTUwLjcgICBjNS41LDAuMiwxMS4xLDAuMiwxNi42LDAuMmM4LjMsMCwxNi42LTAuMiwyNC45LTAuNXY5OS44YzAsMTEuNCw5LjMsMjAuOCwyMC44LDIwLjhzMjAuOC04LjMsMjAuOC0xOS43di0xMDQgICBjNDIuMS00LjcsODEuMi0xNCwxMDktMjguM3YyNjVINDE5LjZ6IE0yNDQuMiwxMzAuNGMtMTE0LjcsMC0xNzYuMy0zMS4zLTE3Ni4zLTQ0LjlzNjIuNi00NC44LDE3Ni4zLTQ0LjhTNDIwLjUsNzIsNDIwLjUsODUuNiAgIFMzNTguOSwxMzAuNCwyNDQuMiwxMzAuNHoiIGZpbGw9IiMwMDAwMDAiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K' }),
-	          'Bucket List'
+	          _react2.default.createElement(
+	            'h1',
+	            null,
+	            _react2.default.createElement('img', { src: 'data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4OC40IDQ4OC40IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODguNCA0ODguNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiPgo8Zz4KCTxwYXRoIGQ9Ik00NjEuMiw4NS41YzAtNTguNC0xMTIuNy04NS41LTIxNy04NS41cy0yMTcsMjYuMS0yMTcsODQuNWMwLDAuMiwwLDMxOC43LDAsMzE4LjdjMCw1OC4yLDExMi4xLDg1LjIsMjE2LDg1LjIgICBjMTAwLjgsMCwyMDkuMy0yNS40LDIxNy41LTgwLjFjMC4zLTEuMywwLjUtMi42LDAuNS00Vjg1LjVDNDYxLjIsODUuNiw0NjEuMiw4NS41LDQ2MS4yLDg1LjV6IE00MTkuNiw0MDMuMkw0MTkuNiw0MDMuMiAgIGMwLDEzLjUtNjEuMyw0NC42LTE3NS40LDQ0LjZTNjguOCw0MTUuNyw2OC44LDQwMy4yVjEzNy41YzEwLjksNS43LDIzLjUsMTAuNiwzNy40LDE0Ljh2MTA0LjZjMCwxMS40LDkuMywyMC44LDIwLjgsMjAuOCAgIHMyMC44LTkuMywyMC44LTE5Ljd2LTk1LjljMTIuNCwyLjIsMjUuMywzLjksMzguNCw1LjJ2NTMuM2MwLDExLjQsOS4zLDIwLjgsMjAuOCwyMC44YzExLjQsMCwyMC44LTkuMywyMC44LTIwLjh2LTUwLjcgICBjNS41LDAuMiwxMS4xLDAuMiwxNi42LDAuMmM4LjMsMCwxNi42LTAuMiwyNC45LTAuNXY5OS44YzAsMTEuNCw5LjMsMjAuOCwyMC44LDIwLjhzMjAuOC04LjMsMjAuOC0xOS43di0xMDQgICBjNDIuMS00LjcsODEuMi0xNCwxMDktMjguM3YyNjVINDE5LjZ6IE0yNDQuMiwxMzAuNGMtMTE0LjcsMC0xNzYuMy0zMS4zLTE3Ni4zLTQ0LjlzNjIuNi00NC44LDE3Ni4zLTQ0LjhTNDIwLjUsNzIsNDIwLjUsODUuNiAgIFMzNTguOSwxMzAuNCwyNDQuMiwxMzAuNHoiIGZpbGw9IiMwMDAwMDAiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K' }),
+	            'Bucket List'
+	          ),
+	          _react2.default.createElement(_Add2.default, { addTrip: this.addTrip })
 	        ),
-	        _react2.default.createElement(_Add2.default, { addTrip: this.addTrip }),
-	        _react2.default.createElement(_BucketList2.default, { details: this.state.bucketList, changeVisited: this.changeVisited })
+	        _react2.default.createElement(_BucketList2.default, { details: this.state.bucketList, changeVisited: this.changeVisited, deleteTrip: this.deleteTrip })
 	      );
 	    }
 	  }]);
@@ -24916,7 +24930,8 @@
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(BucketList).call(this, props));
 
 	    _this.renderCard = function (key) {
-	      return _react2.default.createElement(_Card2.default, { key: key, index: key, details: _this.props.details[key], changeVisited: _this.props.changeVisited, showTrip: _this.showTrip });
+	      var trip = _this.props.details[key];
+	      return _react2.default.createElement(_Card2.default, { key: key, index: key, details: trip, changeVisited: _this.props.changeVisited, showTrip: _this.props.showTrip, deleteTrip: _this.props.deleteTrip });
 	    };
 
 	    return _this;
@@ -24971,6 +24986,11 @@
 
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Card).call(this, props));
 
+	    _this.clickDelete = function (e) {
+	      var tripId = _this.props.details.id;
+	      _this.props.deleteTrip(tripId, e);
+	    };
+
 	    _this.markTrip = function () {
 	      _this.props.changeVisited(_this.props.index);
 	    };
@@ -24987,6 +25007,15 @@
 	      return _react2.default.createElement(
 	        'ul',
 	        { className: 'trip' },
+	        _react2.default.createElement(
+	          'li',
+	          null,
+	          _react2.default.createElement(
+	            'button',
+	            { className: 'trip__delete', onClick: this.clickDelete },
+	            'X'
+	          )
+	        ),
 	        _react2.default.createElement(
 	          'li',
 	          { className: 'trip__city' },
