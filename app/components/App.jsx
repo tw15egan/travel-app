@@ -20,14 +20,14 @@ export default class App extends React.Component {
           id: uuid.v4(),
           city: 'Paris',
           country: 'France',
-          image: 'http://imgur.com/07Nk5kz',
+          image: 'http://i.imgur.com/07Nk5kz',
           visited: true
         },
         {
           id: uuid.v4(),
           city: 'Kuala Lumpur',
           country: 'Malaysia',
-          image: 'http://imgur.com/qt6PR2f',
+          image: 'http://i.imgur.com/qt6PR2f',
           visited: false
         }
       ]
