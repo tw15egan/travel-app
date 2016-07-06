@@ -18,7 +18,7 @@ const common = {
   },
   output: {
     path: PATHS.build,
-    // publicPath: '/travel-app/',
+    publicPath: '/travel-app/',
     filename: 'bundle.js'
   },
   resolve: {
