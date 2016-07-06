@@ -13,21 +13,21 @@ export default class App extends React.Component {
           id: uuid.v4(),
           city: 'New York City',
           country: 'USA',
-          image: 'https://media-cdn.tripadvisor.com/media/photo-s/03/9b/2d/f2/new-york-city.jpg',
+          image: 'http://i.imgur.com/F5xq6bP.jpg',
           visited: true
         },
         {
           id: uuid.v4(),
           city: 'Paris',
           country: 'France',
-          image: 'https://static.pexels.com/photos/1518/black-and-white-city-bird-people.jpg',
+          image: 'http://imgur.com/07Nk5kz',
           visited: true
         },
         {
           id: uuid.v4(),
           city: 'Kuala Lumpur',
           country: 'Malaysia',
-          image: 'https://static.pexels.com/photos/22804/pexels-photo.jpg',
+          image: 'http://imgur.com/qt6PR2f',
           visited: false
         }
       ]
