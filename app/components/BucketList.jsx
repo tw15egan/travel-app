@@ -7,8 +7,9 @@ export default class BucketList extends React.Component {
   }
   
   renderCard = (key) => {
+    const trip = this.props.details[key];
     return (
-        <Card key={key} index={key} details={this.props.details[key]} changeVisited={this.props.changeVisited} showTrip={this.showTrip} />
+        <Card key={key} index={key} details={trip} changeVisited={this.props.changeVisited} showTrip={this.props.showTrip} deleteTrip={this.props.deleteTrip} />
       )
   }
     
